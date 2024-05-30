@@ -13,7 +13,7 @@ import org.mapstruct.factory.Mappers;
  * @author Faruk
  */
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE)
-public interface UserMapper {
+public interface UserMapper { // this will compile anyway
 
 	UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
